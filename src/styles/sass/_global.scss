@@ -1,0 +1,11 @@
+@use "variables";
+
+body {
+  margin: 0;
+  background-color: variables.$bg;
+  font-size: 20px;
+  color: var(--text);
+  background-image: url("../../resources/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
